@@ -1,0 +1,306 @@
+.rec-supply {
+    border-radius: 5px;
+    padding: 8px !important;
+    cursor: pointer;
+}
+.rec-supply:hover {
+    border-color: #bae0ff !important;
+}
+
+.sourcing-item {
+    padding: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .item-data {
+        width: 420px;
+        margin-left: 10px;
+
+        h3 {
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.65);
+            margin-bottom: 4px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            strong {
+                margin-right: 6px;
+            }
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.45);
+                max-width: 300px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            strong {
+                font-size: 16px;
+                color: #ff0000;
+                font-weight: bold;
+            }
+        }
+    }
+    .supply-more {
+        padding-top: 4px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.logistic {
+    padding-left: 30px;
+
+    li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 12px;
+        padding: 2px;
+
+        i {
+            width: 50px;
+            text-align: right;
+        }
+
+        strong, em {
+            margin-left: 10px;
+        }
+
+        em {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff0000;
+        }
+    }
+}
+
+.depot {
+    li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 12px;
+        padding: 2px;
+
+        i {
+            width: 60px;
+            text-align: right;
+        }
+
+        strong, em {
+            margin-left: 10px;
+        }
+
+        em {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff0000;
+        }
+    }
+}
+
+.item-price {
+    text-align: right;
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-line li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.info-line b {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.info-line i,
+.item-url {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info-line i.item-quantity {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.supplier-card {
+    background: #ffffff;
+    padding: 20px;
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+    ul {
+        margin-bottom: 20px;
+        li {
+            font-size: 13px;
+            color: rgba(0,0,0,0.65);
+            margin: 6px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            b.success {
+                color: #52c41a;
+            }
+            b.error {
+                color: #ff4d4f;
+            }
+        }
+    }
+}
+
+.supply-sku {
+    li {
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 6px;
+        border-radius: 5px;
+        border: 1px solid rgba(0,0,0,0.1);
+        img {
+            width: 40px;
+            height: 40px;
+            margin-right: 12px;
+        }
+        section {
+            flex: 1;
+        }
+        .sku-sel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                font-size: 13px;
+                font-weight: bold;
+                color: #ff0000;
+            }
+        }
+    }
+    li:hover, li.active {
+        border-color: #1677ff;
+    }
+}
+
+.mapped-item {
+    position: relative;
+    min-height: 100px;
+}
+
+.order-create {
+    .address-select {
+        border: 1px solid rgba(0,0,0,0.15);
+        padding: 12px;
+        border-radius: 5px;
+        margin-bottom: 24px;
+        max-height: 240px;
+        overflow-y: scroll;
+        li {
+            border-top: 1px solid rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 12px;
+            margin-top: 12px;
+        }
+        li:nth-of-type(1) {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        section {
+            margin-left: 12px;
+        }
+        h3 {
+            font-size: 14px;
+            font-weight: bold;
+            color: rgba(0,0,0,0.8);
+        }
+        p {
+            font-size: 12px;
+            color: rgba(0,0,0,0.65);
+        }
+    }
+    .order-list {
+        border: 1px solid rgba(0,0,0,0.15);
+        padding: 12px;
+        border-radius: 5px;
+        li {
+            border-top: 1px solid rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 12px;
+            margin-top: 12px;
+            width: 100%;
+        }
+        li:nth-of-type(1) {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            margin-left: 12px;
+        }
+        section {
+            margin-left: 12px;
+            flex: 1;
+        }
+        a {
+            font-size: 13px;
+            color: rgba(0,0,0,0.8);
+            text-decoration: underline;
+            max-width: 100%;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        p {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        i {
+            font-size: 12px;
+            color: rgba(0,0,0,0.45);
+        }
+        strong {
+            font-size: 16px;
+            color: #ff0000;
+            font-weight: bold;
+        }
+    }
+    .create-order {
+        text-align: right;
+        margin-top: 24px;
+    }
+}
+

@@ -1,0 +1,126 @@
+.item-title {
+    display: block;
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 16px;
+    line-height: 1.5715;
+}
+
+.item-wrapper {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item-label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-right: 8px;
+}
+
+.item-content {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.update-confirm::-webkit-scrollbar {
+    width: 0;
+}
+.update-confirm {
+    max-height: 640px;
+    overflow-y: scroll;
+    .update-module {
+        h2 {
+            margin-bottom: 8px;
+        }
+        ul {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        li {
+            width: 33.33%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-right: 10px;
+            box-sizing: border-box;
+        }
+        em {
+            font-style: normal;
+            color: rgba(0,0,0,0.45);
+        }
+        strong {
+            margin-left: 6px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 220px;
+        }
+        dd {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+}
+
+.item-basic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .basic-info {
+        h3 {
+            margin-bottom: 4px;
+        }
+        p {
+            color: rgba(0,0,0,0.45);
+        }
+    }
+}
+.item-infos {
+    .item-row {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-bottom: 4px;
+        b {
+            min-width: 56px;
+            text-align: right;
+            margin-right: 8px;
+        }
+    }
+}
+
+.email-log-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+        color: rgba(0,0,0,0.85);
+    }
+    section {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
